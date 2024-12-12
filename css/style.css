@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+header{
+    background-color: rgb(255, 221, 0);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+    overflow: auto; 
+    height: 15vh;
+}
+main{
+    overflow: scroll;
+    height: 70vh;
+}
+.main_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200vh;
+}
+.return,.settings{
+    background-color: orange;
+    width: 350px;
+    height: 80px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+.back,.gear{
+    width: 50px;
+    height: 50px;
+}
+.gear{
+    margin-left: 30px;
+}
+.back{
+    margin-right: 30px;
+}
+
+.foooooooter{
+    background-color: rgb(255, 221, 0) ;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 90px;
+    height: 90px;
+}
+.foot{
+    border: solid 2px black;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 25%;
+    height: 15vh;
+}
+
+.txt_img{
+    justify-content: space-evenly;
+    display: flex;
+    float: left;
+}
+span{
+    text-decoration: underline;
+}
